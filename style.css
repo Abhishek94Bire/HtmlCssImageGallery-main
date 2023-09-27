@@ -1,0 +1,46 @@
+body{
+    background-color: rgb(42, 35, 56);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    color: rgb(213, 255, 25);
+}
+
+section{
+    text-align: center;
+}
+
+section h3{
+    text-shadow: 1px 1px 1px rgb(218, 83, 83);
+}
+
+figure{
+border: 2px solid darkred;
+width: 300px;
+height: 300px;
+display: inline-block;
+margin: 5px;
+padding: 5px;
+border-radius: 20px;
+box-shadow: 0px 0px 16px rgb(113, 255, 113);
+}
+
+figure:hover figcaption{
+    color: rgb(141, 1, 235);
+    cursor: pointer;
+    background-color: rgb(0, 255, 34);
+    border-radius: 15px;
+    box-shadow: 0px 0px 16px rgb(248, 47, 215);
+
+}
+
+figure img{
+    width: 300px;
+    height: 200px;
+    border-radius: 20px;
+}
+
+figcaption{
+    padding:10px;
+    margin:20px;
+    color: yellowgreen;
+}
